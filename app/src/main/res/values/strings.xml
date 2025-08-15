@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Air DMM</string>
+    <string name="ET_positionHeight">50代表屏幕中央</string>
+    <string name="ET_delayTime">3代表3秒</string>
+    <string name="ET_alpha">100代表完全不透明</string>
+    <string name="BTN_saveOptions">保存(并重启悬浮窗)</string>
+    <string name="BTN_notifiyConfig">设置</string>
+    <string name="BTN_startFloatWindow">打开悬浮窗</string>
+    <string name="BTN_restartFloatWindow">重启悬浮窗</string>
+    <string name="BTN_closeFloatWindow">关闭悬浮窗</string>
+    <string name="BTN_saveNotifiyConfig">保存</string>
+    <string name="Text_alpha">不透明度</string>
+    <string name="Text_delay">显示时间(开发中)</string>
+    <string name="Text_FloatWindowHeight">悬浮窗高度</string>
+    <string name="Text_WhiteList">应用灰名单：根据灰名单模式屏蔽或仅显示填写应用的通知消息</string>
+    <string name="Text_HintWhiteList">[&quot;com.tencent.modileqq&quot;,&quot;com.tencent.mm&quot;]</string>
+    <string name="Text_KeyWord">关键字：匹配到关键字对通知做一定处理</string>
+    <string name="Text_HintKeyWord">[&quot;有人@你&quot;,&quot;微信红包&quot;]</string>
+    <string name="BTN_restartNotifiy">重启通知服务</string>
+    <string name="SWT_blackListMode">应用灰名单模式</string>
+    <string name="SWT_invertKeyWord">关键词列表模式</string>
+</resources>

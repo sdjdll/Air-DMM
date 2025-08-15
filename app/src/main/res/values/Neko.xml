@@ -1,0 +1,17 @@
+<resources>
+    <string name="Text1">主人还没开启悬浮窗喵~</string>
+    <string name="Text2">猫猫帮你设置为默认值了喵~</string>
+    <string name="Text3">主人~不应该使用0~100以外的数喵~</string>
+    <string name="Text4">主人~不应该用空值喵~</string>
+    <string name="Text5">主人~填写的值格式不对喵~</string>
+    <string name="Text6">"笨蛋主人已经打开悬浮窗啦喵！"</string>
+    <string name="LogWriteFiled">日志写入失败了喵！QAQ</string>
+    <string name="SwtAct_blackListModeTrue1">当前处于白名单模式喵~</string>
+    <string name="SwtAct_blackListModeTrue2">DMM会显示主人设置的应用的包名的通知呢喵~</string>
+    <string name="SwtAct_blackListModeFalse1">当前处于黑名单模式喵~</string>
+    <string name="SwtAct_blackListModeFalse2">DMM会根据主人设置的包名屏蔽通知呢喵~</string>
+    <string name="SwtAct_invertKeyWordModeTrue1">当前处于提取模式喵~</string>
+    <string name="SwtAct_invertKeyWordModeTrue2">DMM会显示主人设置的关键词标记通知呢喵~</string>
+    <string name="SwtAct_invertKeyWordModeFalse1">当前处于过滤模式喵~</string>
+    <string name="SwtAct_invertKeyWordModeFalse2">DMM会根据主人设置的关键词移除通知呢喵~</string>
+</resources>
