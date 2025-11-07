@@ -8,12 +8,15 @@
     tools:context=".Setting">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintTop_toTopOf="parent">
 
         <Space
             android:layout_width="match_parent"
@@ -32,7 +35,7 @@
                 android:text="@string/ActiveAlpha" />
 
             <EditText
-                android:id="@+id/ActiveAlpha"
+                android:id="@+id/Et_ActiveAlpha"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -55,7 +58,7 @@
                 tools:ignore="DuplicateIds" />
 
             <EditText
-                android:id="@+id/WaitingAlpha"
+                android:id="@+id/Et_WaitingAlpha"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -76,7 +79,7 @@
                 android:text="@string/DelayTime" />
 
             <EditText
-                android:id="@+id/DelayTime"
+                android:id="@+id/Et_DelayTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -92,18 +95,18 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/Btn_Start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/Start" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/Btn_Stop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/Stop" />
         </LinearLayout>
 
         <LinearLayout
@@ -112,11 +115,11 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/Btn_Restart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/Restart" />
         </LinearLayout>
 
     </LinearLayout>
